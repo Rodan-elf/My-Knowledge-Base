@@ -1,6 +1,5 @@
 # Linux Engineering Basics
 
----
 
 ## Technical Command Index
 
