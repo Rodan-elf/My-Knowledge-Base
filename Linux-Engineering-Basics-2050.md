@@ -1,7 +1,4 @@
-# Linux Engineering Basics — Professional Knowledge Base
-**Course Reference:** 2050 — Linux Engineering Basics
-**Document Type:** Technical Knowledge Base / GitHub Repository Reference
-**Audience:** Engineering Students, Systems Administrators, Cybersecurity Practitioners
+# Linux Engineering Basics
 
 ---
 
