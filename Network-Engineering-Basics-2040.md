@@ -1,10 +1,5 @@
 # Network Engineering — Technical Knowledge Base
 
-**Course:** 2040 – Network Engineering Basics
-**Document Type:** Professional Knowledge Base for GitHub Repository
-**Scope:** Foundational to intermediate network engineering theory and practice
-
----
 
 ## Module 1: Network Components and Topology Fundamentals
 
