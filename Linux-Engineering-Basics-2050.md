@@ -1015,7 +1015,3 @@ WantedBy=multi-user.target
 - **Industrial Application:** Production database servers use cron (or systemd timers) to schedule automated nightly backups, log archiving, and integrity checks during off-peak hours, ensuring that critical data protection operations run consistently without requiring manual administrative intervention.
 - **Technical Constraint:** A common cron misconfiguration involves assuming that the cron execution environment is identical to the user's interactive shell environment. cron jobs execute in a minimal environment with a restricted `$PATH`. Commands that work interactively may fail in cron if they rely on shell aliases, environment variables, or `$PATH` entries not present in the cron environment. Always specify full absolute paths to executables within crontab entries (e.g., `/usr/bin/python3` rather than `python3`).
 
----
-
-*End of Knowledge Base — Linux Engineering Basics (Course 2050)*
-*Document generated from academic course notes. All commands have been verified against documented Bash, Kali Linux, and Ubuntu behavior.*
