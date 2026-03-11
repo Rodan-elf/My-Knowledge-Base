@@ -1,11 +1,5 @@
 # Web Technologies Basics — Technical Knowledge Base
 
-**Course Reference:** 2070 — Web Technologies Basics  
-**Document Type:** Senior Technical Documentation / GitHub Knowledge Base  
-**Scope:** Frontend Markup, Styling, Scripting, Client-Server Communication, API Architecture, Database Fundamentals, Backend Runtime
-
----
-
 ## Technical Command Reference Index
 
 > All commands, syntax patterns, and configuration lines extracted from source material. Grouped by context.
@@ -977,7 +971,3 @@ Signature: HMACSHA256(base64UrlEncode(header) + "." + base64UrlEncode(payload), 
 **Real-World Application:** Platforms such as Google and Netflix implement OAuth 2.0 to allow third-party applications (e.g., a mobile app) to access user data on their behalf without the user exposing their Google or Netflix password to the third-party app. The OAuth flow issues a scoped access token valid only for the permissions explicitly granted by the user.
 
 **Technical Constraint:** Basic authentication encodes credentials in Base64, which is a reversible encoding, not encryption. Any party intercepting the HTTP request can trivially decode the credentials with publicly available tools. Basic auth is only acceptable when used exclusively over an HTTPS connection, and even then, it is considered a poor practice for production APIs because credentials are transmitted with every request, maximizing the exposure surface. JWT bearer tokens are the current industry standard for stateless API authentication.
-
----
-
-*End of Document — Web Technologies Basics Knowledge Base*
